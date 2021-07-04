@@ -6,3 +6,14 @@ var myLogger = function (req, res, next) {
   next()
 }
 
+app.get('/images/', function (req, res) {
+  res.send('Madhan Wedding')
+})
+
+app.get('/js/', function (req, res) {
+  res.send('Madhan Wedding')
+})
+
+app.get('/css/', function (req, res) {
+  res.send('Madhan Wedding')
+})
