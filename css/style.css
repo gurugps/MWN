@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+  }
+.detailssection p
+{
+	margin: 0px;
+}
+.footerlinks a
+{
+	    color: #000000;
+    border: 1px solid #c6c6c6;
+    padding: 12px;
+    padding-bottom: 16px;
+    box-shadow: 1px 1px 1px #555;
+    border-radius: 7px;
+}
+.footerlinks a svg
+{
+	    width: 22px;
+}
+.footerlinks1 a svg
+{
+	    width: 30px;
+}
+.google_map
+{
+	    width: 50px;
+}
+
+.detailssection i
+{
+	color: #00bcd4;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+	.iconsection
+{
+	    margin-bottom: 30px;
+}
+}
