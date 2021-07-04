@@ -5,6 +5,9 @@ var myLogger = function (req, res, next) {
   console.log('LOGGED')
   next()
 }
+app.get('/',function(req,res) {
+  res.sendFile('index.html');
+});
 
 app.get('/images/', function (req, res) {
   res.send('Madhan Wedding')
